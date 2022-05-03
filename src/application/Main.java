@@ -8,11 +8,11 @@ import javafx.scene.Scene;
 public class Main extends Application {
 	public void start(Stage primaryStage) {
 		try {
-			RootGridPane root = new RootGridPane();
+			RootGridPane root = new RootGridPane(); // BorderPane machen und wahrscheinlich FlowPane
 			// BorderPane root = new BorderPane();
 			Scene scene = new Scene(root, 400, 400);
 			primaryStage.setScene(scene);
-			primaryStage.setTitle("Erstes Fenster");
+			primaryStage.setTitle("GUI Übung 2");
 			primaryStage.show();
 		} catch (Exception e) {
 			e.printStackTrace();
